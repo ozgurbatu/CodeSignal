@@ -34,7 +34,7 @@ public class almostIncreasingSequence {
     //
     //Return true if it is possible to remove one element from the array in order to get a strictly
     // increasing sequence, otherwise return false.
-    //
+
 
     boolean solution(int[] sequence) {
         int num = 0;

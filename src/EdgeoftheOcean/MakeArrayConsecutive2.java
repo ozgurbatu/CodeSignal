@@ -33,7 +33,7 @@ public class MakeArrayConsecutive2 {
     //
     //The minimal number of statues that need to be added to existing statues such that it contains
     // every integer size from an interval [L, R] (for some L, R) and no other sizes.
-    //
+
 
     int solution(int[] statues) {//[6, 2, 3, 8]
         int con=0;

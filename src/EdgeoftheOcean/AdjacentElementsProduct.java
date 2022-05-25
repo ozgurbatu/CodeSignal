@@ -28,7 +28,7 @@ public class AdjacentElementsProduct {
     //[output] integer
     //
     //The largest product of adjacent elements.
-    //
+
 
     int solution(int[] inputArray) {
         return IntStream.range(1, inputArray.length).map(i->inputArray[i]*inputArray[i-1]).max().getAsInt();

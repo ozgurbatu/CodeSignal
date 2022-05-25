@@ -26,7 +26,7 @@ public class ShapeArea {
     //[output] integer
     //
     //The area of the n-interesting polygon.
-    //
+
     int solution(int n) {
         return ((n*n)+((n-1)*(n-1)));
     }
