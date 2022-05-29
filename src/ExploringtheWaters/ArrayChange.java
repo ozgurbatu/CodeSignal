@@ -24,7 +24,7 @@ public class ArrayChange {
      The minimal number of moves needed to obtain a strictly increasing sequence from inputArray.
      It's guaranteed that for the given test cases the answer always fits signed 32-bit integer type.
      */
-    //
+
     int solution(int[] inputArray) {
 
         int sonuc = 0;

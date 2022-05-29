@@ -49,7 +49,7 @@ public class AreSimilar {
 
      true if a and b are similar, false otherwise.
      */
-    //
+
     boolean solution(int[] a, int[] b) {
 
         int sayac=0;

@@ -35,7 +35,7 @@ public class AddBorder {
      * <p>
      * The same matrix of characters, framed with a border of asterisks of width 1.
      */
-    //
+
     String[] solution(String[] picture) {
         String asterisks = "";
 

@@ -24,7 +24,7 @@ public class AlternatingSums {
      [output] array.integer
 
      */
-//
+
     int[] solution(int[] a) {
         int toplam[]=new int[2];
         for(int i=0; i<a.length; i++){
