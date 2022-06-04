@@ -26,6 +26,7 @@ public class ArrayMaximalAdjacentDifference {
      [output] integer
 
      The maximal absolute difference
+
      */
 
     int solution(int[] inputArray) {

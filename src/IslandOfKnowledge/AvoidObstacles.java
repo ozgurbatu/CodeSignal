@@ -32,6 +32,7 @@ public class AvoidObstacles {
      [output] integer
 
      The desired length.
+
      */
 
     int solution(int[] inputArray) {

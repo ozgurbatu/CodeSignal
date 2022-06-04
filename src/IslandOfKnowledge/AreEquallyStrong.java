@@ -51,6 +51,7 @@ public class AreEquallyStrong {
      * [output] boolean
      * <p>
      * true if you and your friend are equally strong, false otherwise.
+
      */
 
     boolean areEquallyStrong(int yourLeft, int yourRight, int friendsLeft, int friendsRight) {

@@ -38,6 +38,7 @@ public class IsPv4Address {
      * [output] boolean
      * <p>
      * true if inputString satisfies the IPv4 address naming rules, false otherwise.
+
      */
     public static void main(String[] args) {
         System.out.println(solution("0.0.0.249"));

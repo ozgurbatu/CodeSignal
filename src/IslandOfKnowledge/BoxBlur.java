@@ -47,6 +47,7 @@ public class BoxBlur {
      [output] array.array.integer
 
      A blurred image represented as integers, obtained through the process in the description.
+
      */
 
     int[][] solution(int[][] image) {

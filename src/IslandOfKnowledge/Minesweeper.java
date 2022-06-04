@@ -38,6 +38,7 @@ public class Minesweeper {
      Rectangular matrix of the same size as matrix each cell of which contains an integer equal to the number of mines
      in the neighboring cells.
      wo cells are called neighboring if they share at least one corner.
+
      */
     int[][] solution(boolean[][] matrix) {
         int[][] sonuc = new int[matrix.length][matrix[0].length];
