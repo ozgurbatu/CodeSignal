@@ -40,26 +40,20 @@ public class IsPv4Address {
      * true if inputString satisfies the IPv4 address naming rules, false otherwise.
      */
     public static void main(String[] args) {
-        System.out.println(solution(".254.255.0"));
+        System.out.println(solution("0.0.0.249"));
     }
 
     static boolean solution(String inputString) {
-
-        String arr[] = inputString.split("\\.");
-        if(arr.length != 4){
+        String str="25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9]";
+        String arr[]=inputString.split("\\.");
+        if (arr.length != 4) {
             return false;
         }
-        for(String part : arr){
-            if(part.isEmpty())
+        for (String each: arr) {
+            if (!each.matches(str)) {
                 return false;
-
-            if(!part.matches("[0,9]{1,3}"))
-                return false;
-
-            if(!(Integer.parseInt(part)>=0 && Integer.parseInt(part)<=255))
-                return false;
+            }
         }
-
         return true;
     }
 
