@@ -30,6 +30,7 @@ public class ExtractEachKth {
      [output] array.integer
 
      inputArray without elements k - 1, 2k - 1, 3k - 1 etc.
+
      */
     int[] solution(int[] inputArray, int k) {
         int[] newArray = new int[inputArray.length - inputArray.length / k];
